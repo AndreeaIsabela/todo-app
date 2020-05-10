@@ -19,7 +19,7 @@ export const createTask = (taskID, groupID, ownerID) => {
 export const setTaskCompletion = (id, isComplete) => {
     return {
         type: SET_TASK_COMPLETE,
-        taskId: id,
+        taskID: id,
         isComplete: isComplete
     }
 }
