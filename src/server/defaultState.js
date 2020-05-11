@@ -1,4 +1,4 @@
-export const defaultSatate = {
+const defaultSatate = {
     users: [
         {
             id: 'U1',
@@ -69,3 +69,5 @@ export const defaultSatate = {
         content: 'Great work!!!'
     }]
 }
+
+export default defaultSatate;
